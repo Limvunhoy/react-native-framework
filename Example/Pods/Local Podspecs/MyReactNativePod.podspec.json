@@ -1,0 +1,22 @@
+{
+  "name": "MyReactNativePod",
+  "version": "0.1.0",
+  "summary": "A short description of MyReactNativePod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/39089099/MyReactNativePod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "39089099": "limvunhoyzzz@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/39089099/MyReactNativePod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MyReactNativePod/Classes/**/*"
+}

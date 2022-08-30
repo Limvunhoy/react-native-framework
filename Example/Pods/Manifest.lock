@@ -1,0 +1,16 @@
+PODS:
+  - MyReactNativePod (0.1.0)
+
+DEPENDENCIES:
+  - MyReactNativePod (from `../`)
+
+EXTERNAL SOURCES:
+  MyReactNativePod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MyReactNativePod: 87b622a84ac67d4e85c6a30676bd08d231c4c161
+
+PODFILE CHECKSUM: b5be7f9cb3f495f84c8f81269a4088c0fc2a36e3
+
+COCOAPODS: 1.11.3

@@ -5,10 +5,13 @@
 # Any lines starting with a # are optional, but their use is encouraged
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
+require "json"
+
+package = JSON.parse(File.read(File.join(__dir__, "package.json")))
 
 Pod::Spec.new do |s|
   s.name             = 'MyReactNativePod'
-  s.version          = '0.1.0'
+  s.version          = package["version"]
   s.summary          = 'A short description of MyReactNativePod.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +33,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'MyReactNativePod/Classes/**/*'
+  s.source_files      = 'MyReactNativePod/Classes/**/*.{h,m,swift}'
+  s.resources        = 'Pod/Assets/{MyReactNativePod.js,assets}'
+  s.platform         = { :ios => '13.0' }
+  s.requires_arc     = true
+  s.static_framework = true
+  
+  s.dependency 'React'
   
   # s.resource_bundles = {
   #   'MyReactNativePod' => ['MyReactNativePod/Assets/*.png']
