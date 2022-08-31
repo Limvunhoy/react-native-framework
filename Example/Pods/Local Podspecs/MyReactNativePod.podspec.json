@@ -1,6 +1,6 @@
 {
   "name": "MyReactNativePod",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "summary": "A short description of MyReactNativePod.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/39089099/MyReactNativePod",
@@ -12,7 +12,8 @@
     "39089099": "limvunhoyzzz@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Limvunhoy/react-native-framework"
+    "git": "https://github.com/Limvunhoy/react-native-framework",
+    "tag": "v1.0.0"
   },
   "platforms": {
     "ios": "10.0"

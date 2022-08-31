@@ -24,12 +24,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/39089099/MyReactNativePod'
+  s.homepage         = 'https://github.com/Limvunhoy'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '39089099' => 'limvunhoyzzz@gmail.com' }
-  s.source           = { :git => 'https://github.com/Limvunhoy/react-native-framework' }
+  s.source           = { :git => 'https://github.com/Limvunhoy/react-native-framework.git', :tag => "v#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
+  puts s.source
 
   s.ios.deployment_target = '10.0'
 
