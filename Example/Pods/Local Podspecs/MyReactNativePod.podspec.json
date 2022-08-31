@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "summary": "A short description of MyReactNativePod.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/39089099/MyReactNativePod",
+  "homepage": "https://github.com/Limvunhoy",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "39089099": "limvunhoyzzz@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Limvunhoy/react-native-framework",
+    "git": "https://github.com/Limvunhoy/react-native-framework.git",
     "tag": "v1.0.0"
   },
   "platforms": {
