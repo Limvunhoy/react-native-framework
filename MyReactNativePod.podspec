@@ -41,7 +41,7 @@ TODO: Add long description of the pod here.
   s.requires_arc     = true
   s.static_framework = true
   
-  s.dependency 'React', '0.67.4'
+  s.dependency 'React', 'v0.67.4'
 
   # podspecs = [
   #   'node_modules/react-native/third-party-podspecs/DoubleConversion.podspec',
