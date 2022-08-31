@@ -28,18 +28,28 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '39089099' => 'limvunhoyzzz@gmail.com' }
-  s.source           = { :git => 'https://github.com/39089099/MyReactNativePod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Limvunhoy/react-native-framework' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files      = 'MyReactNativePod/Classes/**/*.{h,m,swift}'
+  s.source_files      = 'Pod/Classes/**/*.{h,m,swift}'
   s.resources        = 'Pod/Assets/{MyReactNativePod.js,assets}'
-  s.platform         = { :ios => '13.0' }
+  # s.platform         = { :ios => '13.0' }
   s.requires_arc     = true
   s.static_framework = true
   
   s.dependency 'React'
+
+  # podspecs = [
+  #   'node_modules/react-native/third-party-podspecs/DoubleConversion.podspec',
+  #   'node_modules/react-native/third-party-podspecs/Folly.podspec',
+  #   'node_modules/react-native/third-party-podspecs/glog.podspec'
+  # ]
+  # podspecs.each do |podspec_path|
+  #   spec = Pod::Specification.from_file podspec_path
+  #   s.dependency spec.name, "#{spec.version}"
+  # end
   
   # s.resource_bundles = {
   #   'MyReactNativePod' => ['MyReactNativePod/Assets/*.png']

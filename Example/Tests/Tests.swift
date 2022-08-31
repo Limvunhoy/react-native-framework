@@ -1,5 +1,4 @@
 import XCTest
-import MyReactNativePod
 
 class Tests: XCTestCase {
     

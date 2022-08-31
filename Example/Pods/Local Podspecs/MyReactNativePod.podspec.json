@@ -1,6 +1,6 @@
 {
   "name": "MyReactNativePod",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of MyReactNativePod.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/39089099/MyReactNativePod",
@@ -12,11 +12,18 @@
     "39089099": "limvunhoyzzz@gmail.com"
   },
   "source": {
-    "git": "https://github.com/39089099/MyReactNativePod.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Limvunhoy/react-native-framework"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "MyReactNativePod/Classes/**/*"
+  "source_files": "Pod/Classes/**/*.{h,m,swift}",
+  "resources": "Pod/Assets/{MyReactNativePod.js,assets}",
+  "requires_arc": true,
+  "static_framework": true,
+  "dependencies": {
+    "React": [
+
+    ]
+  }
 }
