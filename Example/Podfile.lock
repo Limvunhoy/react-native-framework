@@ -12,7 +12,7 @@ PODS:
   - fmt (6.2.1)
   - glog (0.3.5)
   - MyReactNativePod (1.0.0):
-    - React (= 0.67.4)
+    - React
   - RCT-Folly (2021.06.28.00-v2):
     - boost
     - DoubleConversion
@@ -415,7 +415,7 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: 0f4e1f4cfeace095694436e7c7fcc5bf4b03a0ff
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   glog: 85ecdd10ee8d8ec362ef519a6a45ff9aa27b2e85
-  MyReactNativePod: 77887c4c70b9aa6d91da3974267105f78b398185
+  MyReactNativePod: 66da03b65e3ed74c74812b33caac2c247cdde64e
   RCT-Folly: 803a9cfd78114b2ec0f140cfa6fa2a6bafb2d685
   RCTRequired: 0aa6c1c27e1d65920df35ceea5341a5fe76bdb79
   RCTTypeSafety: d76a59d00632891e11ed7522dba3fd1a995e573a

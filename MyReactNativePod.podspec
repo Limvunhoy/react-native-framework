@@ -41,18 +41,18 @@ TODO: Add long description of the pod here.
   s.requires_arc     = true
   s.static_framework = true
   
-  s.dependency 'React', "0.67.4"
+  # s.dependency 'React', "0.67.4"
 
-  # podspecs = [
-  #   'node_modules/react-native/React.podspec'
-  #   # 'node_modules/react-native/third-party-podspecs/DoubleConversion.podspec',
-  #   # 'node_modules/react-native/third-party-podspecs/Folly.podspec',
-  #   # 'node_modules/react-native/third-party-podspecs/glog.podspec'
-  # ]
-  # podspecs.each do |podspec_path|
-  #   spec = Pod::Specification.from_file podspec_path
-  #   s.dependency spec.name, "#{spec.version}"
-  # end
+  podspecs = [
+    'node_modules/react-native/React.podspec'
+    # 'node_modules/react-native/third-party-podspecs/DoubleConversion.podspec',
+    # 'node_modules/react-native/third-party-podspecs/Folly.podspec',
+    # 'node_modules/react-native/third-party-podspecs/glog.podspec'
+  ]
+  podspecs.each do |podspec_path|
+    spec = Pod::Specification.from_file podspec_path
+    s.dependency spec.name
+  end
   
   # s.resource_bundles = {
   #   'MyReactNativePod' => ['MyReactNativePod/Assets/*.png']
