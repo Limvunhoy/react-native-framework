@@ -24,7 +24,7 @@
   "static_framework": true,
   "dependencies": {
     "React": [
-
+      "0.67.4"
     ]
   }
 }

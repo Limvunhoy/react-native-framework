@@ -41,7 +41,7 @@ TODO: Add long description of the pod here.
   s.requires_arc     = true
   s.static_framework = true
   
-  s.dependency 'React', :git => 'https://github.com/facebook/react-native.git'
+  s.dependency 'React', "0.67.4"
 
   # podspecs = [
   #   'node_modules/react-native/third-party-podspecs/DoubleConversion.podspec',
