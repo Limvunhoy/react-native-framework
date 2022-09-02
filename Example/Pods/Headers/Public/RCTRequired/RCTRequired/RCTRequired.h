@@ -1,1 +1,1 @@
-../../../../../../node_modules/react-native/Libraries/RCTRequired/RCTRequired/RCTRequired.h
+../../../../RCTRequired/Libraries/RCTRequired/RCTRequired/RCTRequired.h

@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "RCTLinkingManager.h"
+#import "RCTLinkingPlugins.h"
 
 FOUNDATION_EXPORT double RCTLinkingVersionNumber;
 FOUNDATION_EXPORT const unsigned char RCTLinkingVersionString[];

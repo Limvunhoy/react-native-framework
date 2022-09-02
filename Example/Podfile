@@ -1,3 +1,6 @@
+source 'https://github.com/Limvunhoy/wm-rn-private-repo'
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
 
 platform :ios, '11.0'
@@ -15,38 +18,38 @@ target 'MyReactNativePod_Example' do
   pod 'MyReactNativePod', :path => '../'
 
   # We want extra developer support in React inside this app
-  pod 'React', path: react_path
-  pod 'React-Core', path: '../node_modules/react-native/'
-  pod 'React-RCTActionSheet', path: '../node_modules/react-native/Libraries/ActionSheetIOS'
-  pod 'React-RCTAnimation', path: '../node_modules/react-native/Libraries/NativeAnimation'
-  pod 'React-RCTBlob', path: '../node_modules/react-native/Libraries/Blob'
-  pod 'React-RCTImage', path: '../node_modules/react-native/Libraries/Image'
-  pod 'React-RCTLinking', path: '../node_modules/react-native/Libraries/LinkingIOS'
-  pod 'React-RCTNetwork', path: '../node_modules/react-native/Libraries/Network'
-  pod 'React-RCTSettings', path: '../node_modules/react-native/Libraries/Settings'
-  pod 'React-CoreModules', :path => '../node_modules/react-native/React/CoreModules'
-  pod 'React-RCTText', path: '../node_modules/react-native/Libraries/Text'
-  pod 'React-RCTVibration', path: '../node_modules/react-native/Libraries/Vibration'
-  pod 'ReactCommon', path: '../node_modules/react-native/ReactCommon'
-  pod 'React-cxxreact', path: '../node_modules/react-native/ReactCommon/cxxreact'
-  pod 'React-jsi', path: '../node_modules/react-native/ReactCommon/jsi'
-  pod 'React-jsiexecutor', path: '../node_modules/react-native/ReactCommon/jsiexecutor'
-  pod 'React-jsinspector', :path => "../node_modules/react-native/ReactCommon/jsinspector"
-  pod 'React-callinvoker', :path => "../node_modules/react-native/ReactCommon/callinvoker"
-  pod 'React-perflogger', :path => "../node_modules/react-native/ReactCommon/reactperflogger"
-  pod 'React-logger', :path => "../node_modules/react-native/ReactCommon/logger"
-  pod 'React-runtimeexecutor', :path => "../node_modules/react-native/ReactCommon/runtimeexecutor"
-  pod 'FBReactNativeSpec', :path => "../node_modules/react-native/React/FBReactNativeSpec"
-  pod 'RCTTypeSafety', :path => "../node_modules/react-native/Libraries/TypeSafety"
-  pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
-  pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
+#   pod 'React', path: react_path
+#   pod 'React-Core', path: '../node_modules/react-native/'
+#   pod 'React-RCTActionSheet', path: '../node_modules/react-native/Libraries/ActionSheetIOS'
+#   pod 'React-RCTAnimation', path: '../node_modules/react-native/Libraries/NativeAnimation'
+#   pod 'React-RCTBlob', path: '../node_modules/react-native/Libraries/Blob'
+#   pod 'React-RCTImage', path: '../node_modules/react-native/Libraries/Image'
+#   pod 'React-RCTLinking', path: '../node_modules/react-native/Libraries/LinkingIOS'
+#   pod 'React-RCTNetwork', path: '../node_modules/react-native/Libraries/Network'
+#   pod 'React-RCTSettings', path: '../node_modules/react-native/Libraries/Settings'
+#   pod 'React-CoreModules', :path => '../node_modules/react-native/React/CoreModules'
+#   pod 'React-RCTText', path: '../node_modules/react-native/Libraries/Text'
+#   pod 'React-RCTVibration', path: '../node_modules/react-native/Libraries/Vibration'
+#   pod 'ReactCommon', path: '../node_modules/react-native/ReactCommon'
+#   pod 'React-cxxreact', path: '../node_modules/react-native/ReactCommon/cxxreact'
+#   pod 'React-jsi', path: '../node_modules/react-native/ReactCommon/jsi'
+#   pod 'React-jsiexecutor', path: '../node_modules/react-native/ReactCommon/jsiexecutor'
+#   pod 'React-jsinspector', :path => "../node_modules/react-native/ReactCommon/jsinspector"
+#   pod 'React-callinvoker', :path => "../node_modules/react-native/ReactCommon/callinvoker"
+#   pod 'React-perflogger', :path => "../node_modules/react-native/ReactCommon/reactperflogger"
+#   pod 'React-logger', :path => "../node_modules/react-native/ReactCommon/logger"
+#   pod 'React-runtimeexecutor', :path => "../node_modules/react-native/ReactCommon/runtimeexecutor"
+#   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/React/FBReactNativeSpec"
+#   pod 'RCTTypeSafety', :path => "../node_modules/react-native/Libraries/TypeSafety"
+#   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
+#   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
 
-  # We're letting CP know where it can find these Podspecs
-  pod 'Yoga', path: yoga_path
-  pod 'RCT-Folly', podspec: folly_spec_path
-  pod 'DoubleConversion', podspec: double_conversion_spec_path
-  pod 'glog', podspec: glog_spec_path
-  pod 'boost', podspec: boost_path
+#   # We're letting CP know where it can find these Podspecs
+#   pod 'Yoga', path: yoga_path
+#   pod 'RCT-Folly', podspec: folly_spec_path
+#   pod 'DoubleConversion', podspec: double_conversion_spec_path
+#   pod 'glog', podspec: glog_spec_path
+#   pod 'boost', podspec: boost_path
 
   target 'MyReactNativePod_Tests' do
     inherit! :search_paths

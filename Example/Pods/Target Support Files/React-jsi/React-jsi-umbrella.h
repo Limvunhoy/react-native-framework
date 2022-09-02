@@ -10,14 +10,19 @@
 #endif
 #endif
 
-#import "JSCRuntime.h"
 #import "decorator.h"
 #import "instrumentation.h"
 #import "jsi-inl.h"
+#import "jsi.cpp"
 #import "jsi.h"
+#import "JSIDynamic.cpp"
 #import "JSIDynamic.h"
+#import "jsilib-posix.cpp"
+#import "jsilib-windows.cpp"
 #import "jsilib.h"
 #import "threadsafe.h"
+#import "JSCRuntime.cpp"
+#import "JSCRuntime.h"
 
 FOUNDATION_EXPORT double jsiVersionNumber;
 FOUNDATION_EXPORT const unsigned char jsiVersionString[];

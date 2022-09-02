@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "FBReactNativeSpec-generated.mm"
 #import "FBReactNativeSpec.h"
 
 FOUNDATION_EXPORT double FBReactNativeSpecVersionNumber;

@@ -9,11 +9,10 @@
     "file": "LICENSE"
   },
   "authors": {
-    "39089099": "limvunhoyzzz@gmail.com"
+    "VunhoyLim": "limvunhoyzzz@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Limvunhoy/react-native-framework.git",
-    "tag": "v1.0.0"
+    "git": "https://github.com/Limvunhoy/react-native-framework.git"
   },
   "platforms": {
     "ios": "10.0"
@@ -24,7 +23,22 @@
   "static_framework": true,
   "dependencies": {
     "React": [
-
+      "0.67.4"
+    ],
+    "React-Core": [
+      "0.67.4"
+    ],
+    "React-CoreModules": [
+      "0.67.4"
+    ],
+    "DoubleConversion": [
+      "1.1.6"
+    ],
+    "RCT-Folly": [
+      "2021.06.28.00-v2"
+    ],
+    "glog": [
+      "0.3.5"
     ]
   }
 }
