@@ -1,6 +1,0 @@
-framework module MyReactNativePod {
-  umbrella header "MyReactNativePod-umbrella.h"
-
-  export *
-  module * { export * }
-}

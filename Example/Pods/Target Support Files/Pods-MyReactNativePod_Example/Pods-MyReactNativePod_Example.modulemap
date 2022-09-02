@@ -1,6 +1,0 @@
-framework module Pods_MyReactNativePod_Example {
-  umbrella header "Pods-MyReactNativePod_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

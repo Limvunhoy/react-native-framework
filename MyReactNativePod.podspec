@@ -51,6 +51,8 @@ TODO: Add long description of the pod here.
   s.dependency 'React', rn_version
   s.dependency 'React-Core', rn_version
   s.dependency 'React-CoreModules', rn_version
+  s.dependency 'ReactNativeNavigation'
+  s.dependency 'react-native-splash-screen'
 
   podspecs = [
     # 'node_modules/react-native/React.podspec',
