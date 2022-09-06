@@ -11,7 +11,7 @@ PODS:
     - ReactCommon/turbomodule/core (= 0.67.4)
   - fmt (6.2.1)
   - glog (0.3.5)
-  - MyReactNativePod (1.0.0):
+  - MyReactNativePod (3.41.1):
     - DoubleConversion (= 1.1.6)
     - glog (= 0.3.5)
     - RCT-Folly (= 2021.06.28.00-v2)
@@ -335,7 +335,7 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: 5597bc5cade1ce11898af70daf99d886e6fa3143
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   glog: fdcb6b0f557959ef57219d0d6db012b65cc7fd17
-  MyReactNativePod: 2eed8a690027f70fcc73d0516418c3a41d5b8441
+  MyReactNativePod: 4e3832aade64b1779b1ab317dda30efd51225486
   RCT-Folly: a42f60d1b61f3f09d220366e55fbe6ed4328a728
   RCTRequired: 2ef1e289e7d9dd6c4d9c4b47cdcf0d44afc2f20f
   RCTTypeSafety: 44193b76e219697d64b64ef6b1dfe6af32837ef7
