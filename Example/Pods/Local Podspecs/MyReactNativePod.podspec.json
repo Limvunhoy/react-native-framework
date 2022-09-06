@@ -18,7 +18,7 @@
     "ios": "10.0"
   },
   "source_files": "Pod/Classes/**/*.{h,m,swift}",
-  "resources": "Pod/Assets/{MyReactNativePod.js,assets}",
+  "resources": "Pod/Assets/{MyReactNativePod.js,assets,MyReactNativePod.jsbundle}",
   "requires_arc": true,
   "static_framework": true,
   "dependencies": {
@@ -30,6 +30,9 @@
     ],
     "React-CoreModules": [
       "0.67.4"
+    ],
+    "ReactNativeNavigation": [
+
     ],
     "DoubleConversion": [
       "1.1.6"

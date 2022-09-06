@@ -43,7 +43,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files     = 'Pod/Classes/**/*.{h,m,swift}'
-  s.resources        = 'Pod/Assets/{MyReactNativePod.js,assets, *.jsbundle}'
+  s.resources        = 'Pod/Assets/{MyReactNativePod.js,assets,MyReactNativePod.jsbundle}'
   # s.platform         = { :ios => '13.0' }
   s.requires_arc     = true
   s.static_framework = true
@@ -51,6 +51,7 @@ TODO: Add long description of the pod here.
   s.dependency 'React', rn_version
   s.dependency 'React-Core', rn_version
   s.dependency 'React-CoreModules', rn_version
+  s.dependency 'ReactNativeNavigation'
 
   podspecs = [
     # 'node_modules/react-native/React.podspec',

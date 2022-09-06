@@ -97,11 +97,11 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/../../Pod/Assets/MyReactNativePod.js"
+  install_resource "${PODS_ROOT}/../../Pod/Assets/MyReactNativePod.jsbundle"
   install_resource "${PODS_ROOT}/../../Pod/Assets/assets"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/../../Pod/Assets/MyReactNativePod.js"
+  install_resource "${PODS_ROOT}/../../Pod/Assets/MyReactNativePod.jsbundle"
   install_resource "${PODS_ROOT}/../../Pod/Assets/assets"
 fi
 

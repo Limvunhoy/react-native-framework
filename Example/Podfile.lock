@@ -11,6 +11,7 @@ PODS:
     - ReactCommon/turbomodule/core (= 0.67.4)
   - fmt (6.2.1)
   - glog (0.3.5)
+  - HMSegmentedControl (1.5.6)
   - MyReactNativePod (3.41.1):
     - DoubleConversion (= 1.1.6)
     - glog (= 0.3.5)
@@ -18,6 +19,7 @@ PODS:
     - React (= 0.67.4)
     - React-Core (= 0.67.4)
     - React-CoreModules (= 0.67.4)
+    - ReactNativeNavigation
   - RCT-Folly (2021.06.28.00-v2):
     - boost-for-react-native
     - DoubleConversion
@@ -284,6 +286,17 @@ PODS:
     - React-jsi (= 0.67.4)
     - React-logger (= 0.67.4)
     - React-perflogger (= 0.67.4)
+  - ReactNativeNavigation (7.29.0):
+    - HMSegmentedControl
+    - React-Core
+    - React-RCTImage
+    - React-RCTText
+    - ReactNativeNavigation/Core (= 7.29.0)
+  - ReactNativeNavigation/Core (7.29.0):
+    - HMSegmentedControl
+    - React-Core
+    - React-RCTImage
+    - React-RCTText
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -293,6 +306,7 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - boost-for-react-native
     - fmt
+    - HMSegmentedControl
   https://github.com/Limvunhoy/wm-rn-private-repo:
     - DoubleConversion
     - FBLazyVector
@@ -322,6 +336,7 @@ SPEC REPOS:
     - React-RCTVibration
     - React-runtimeexecutor
     - ReactCommon
+    - ReactNativeNavigation
     - Yoga
 
 EXTERNAL SOURCES:
@@ -335,7 +350,8 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: 5597bc5cade1ce11898af70daf99d886e6fa3143
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   glog: fdcb6b0f557959ef57219d0d6db012b65cc7fd17
-  MyReactNativePod: 4e3832aade64b1779b1ab317dda30efd51225486
+  HMSegmentedControl: 34c1f54d822d8308e7b24f5d901ec674dfa31352
+  MyReactNativePod: 01d27defb7deb6336ce5a7bb1c8b639f81350487
   RCT-Folly: a42f60d1b61f3f09d220366e55fbe6ed4328a728
   RCTRequired: 2ef1e289e7d9dd6c4d9c4b47cdcf0d44afc2f20f
   RCTTypeSafety: 44193b76e219697d64b64ef6b1dfe6af32837ef7
@@ -360,6 +376,7 @@ SPEC CHECKSUMS:
   React-RCTVibration: 770f6a69fbb1fdbbcb590dfb591a69671b83809a
   React-runtimeexecutor: 2b06e83d3be3f6b4fe918eb659e8e269d9031ddb
   ReactCommon: 6e3ab31afa38fa196b4b7a5392162edc5d8cd188
+  ReactNativeNavigation: d7813f651ac762fcbd43d62c6a320fd4810a8207
   Yoga: 16282c16ae3a1da744cad662f33255a05833cdab
 
 PODFILE CHECKSUM: 6d89e8343723a8b2c4ca314250b8420ae1b3500c

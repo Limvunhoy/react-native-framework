@@ -178,6 +178,7 @@ code_sign_if_enabled() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RCT-Folly/folly.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/React-Core/React.framework"
@@ -197,6 +198,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/React-logger/logger.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/React-perflogger/reactperflogger.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ReactNativeNavigation/ReactNativeNavigation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/fmt/fmt.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/glog/glog.framework"
@@ -204,6 +206,7 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RCT-Folly/folly.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/React-Core/React.framework"
@@ -223,6 +226,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/React-logger/logger.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/React-perflogger/reactperflogger.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ReactNativeNavigation/ReactNativeNavigation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/fmt/fmt.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/glog/glog.framework"
